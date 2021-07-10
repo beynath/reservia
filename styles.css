@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-
 }
 
 a{
@@ -126,4 +125,47 @@ input::placeholder{
     height: 50px;
     display: grid;
     grid-template-columns: 50px 235px 135px;
+}
+
+.filtre i{
+    background-color: #deebff;
+    color: #0065fc;
+    font-size: 1.3rem;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #deebff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+.filtre a{
+    display: flex;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtre{
+    border: 3px solid #d9d9d9;
+    border-radius: 25px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-filtres{
+    font-size: 1.05rem;
+    font-weight: 600;
+    width: 940px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 65px 195px 150px 185px 240px;
+    column-gap: 25px;
+    align-items: center;
 }
