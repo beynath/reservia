@@ -8,12 +8,17 @@ a{
     text-decoration: none;
 }
 
+h1, .icone-populaire{
+    font-size: 1.4rem;
+}
 
+/* box-shadox en general*/
 /*************************  HEADER ********************/
 
 header{ 
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
     
 }
 
@@ -71,15 +76,14 @@ header .button-nav:hover{
     margin: 0px 35px;
 }
 
+
 /* SECTION 1 : TITRE, SOUS-TITRE ET CHAMPS DE RECHERCHE */
-.section1 h1{
-    font-size: 1.4rem;
-    margin: 10px 0px 10px 0px;
-}
+
 
 .section1 h2{
     font-size: 1.05rem;
     font-weight: normal;
+    margin-top: 10px;
 }
 
 .map-marker{
@@ -211,7 +215,50 @@ input::placeholder{
     column-gap: 40px;
 }
 
-.hebergements, .populaires{
+.box-hebergement, .box-populaire{
     background: #f2f2f2;
     border-radius: 25px;
+    padding: 35px 35px;
+}
+
+
+/* SECTION 2 : PARTIE DE GAUCHE HEBERGEMENTS */
+
+.grid-hebergement{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 20px 0px 40px 0px;
+
+}
+
+.hebergement{
+    border: 4px solid white;
+    height: 180px;
+    border-radius: 25px;
+}
+
+.box-hebergement a{
+    color: black;
+    font-weight: 700;
+}
+
+/* SECTION 2 : PARTIE DE DROITE : LES PLUS POPULAIRES */
+
+.icone-populaire{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-populaire{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+    margin-top: 25px;
+}
+
+.populaire{
+    border: 4px solid white;
+    border-radius: 25px;
+    height: 120px;
 }
