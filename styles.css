@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 a{
@@ -265,6 +266,61 @@ input::placeholder{
     border: 4px solid white;
     border-radius: 25px;
     height: 130px;
+}
+
+
+/******* SECTION 3*********/
+
+.section3{
+    margin: 35px 35px 60px 35px;
+}
+
+.box-activite h1{
+    font-size: 1.2rem;
+}
+
+.box-activite{
+    height: 500px;
+}
+
+.grid-activite{   
+    margin: 15px 0px;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: repeat(4, 1fr);
+    gap: 30px;
+    grid-template-areas: 
+        "a b d e"
+        "a b d e"
+        "a b d f"
+        "a c d f"
+}
+
+.activite:nth-child(1){
+    grid-area: a;
+}
+.activite:nth-child(2){
+    grid-area: b;
+}
+.activite:nth-child(3){
+    grid-area: c;
+}
+.activite:nth-child(4){
+    grid-area: d;
+}
+.activite:nth-child(5){
+    grid-area: e;
+}
+.activite:nth-child(6){
+    grid-area: f;
+}
+
+.activite{
+    border: 1px solid green;
+}
+.img1{
+    background: url(assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) center/cover;
 }
 
 /******** FOOTER *******/
