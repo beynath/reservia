@@ -8,9 +8,6 @@ a{
     text-decoration: none;
 }
 
-h1, .icone-populaire{
-    font-size: 1.4rem;
-}
 
 /* box-shadox en general*/
 /*************************  HEADER ********************/
@@ -79,6 +76,9 @@ header .button-nav:hover{
 
 /* SECTION 1 : TITRE, SOUS-TITRE ET CHAMPS DE RECHERCHE */
 
+.section1 h1{
+    font-size: 1.4rem;
+}
 
 .section1 h2{
     font-size: 1.05rem;
@@ -211,14 +211,18 @@ input::placeholder{
     margin: 35px 35px 60px 35px;
     height: 600px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.1fr 0.9fr;
     column-gap: 40px;
+}
+
+.grid-section2 h1{
+    font-size: 1.2rem;
 }
 
 .box-hebergement, .box-populaire{
     background: #f2f2f2;
     border-radius: 25px;
-    padding: 35px 35px;
+    padding: 35px 35px 25px 35px; 
 }
 
 
@@ -260,7 +264,7 @@ input::placeholder{
 .populaire{
     border: 4px solid white;
     border-radius: 25px;
-    height: 120px;
+    height: 130px;
 }
 
 /******** FOOTER *******/
