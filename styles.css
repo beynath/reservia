@@ -9,8 +9,6 @@ a{
     text-decoration: none;
 }
 
-
-/* box-shadox en general*/
 /*************************  HEADER ********************/
 
 header{ 
@@ -226,6 +224,17 @@ input::placeholder{
     padding: 35px 35px 25px 35px; 
 }
 
+.star{
+    display: flex;
+    font-size: 0.8rem;
+    color: #d9d9d9;
+    margin-top: 5px;
+}
+
+.star-blue{
+    color: #0065fc;
+}
+
 
 /* SECTION 2 : PARTIE DE GAUCHE HEBERGEMENTS */
 
@@ -252,11 +261,15 @@ input::placeholder{
     display: flex;
     align-items: center;
     padding-left: 10px;
-    line-height: 20px;
 }
 
 .box-description h2{
     font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.price-bold{
     font-weight: 700;
 }
 
@@ -265,21 +278,35 @@ input::placeholder{
     font-weight: 500;
 }
 
-.star{
-    display: flex;
-    font-size: 0.8rem;
-    color: #d9d9d9;
-}
-
-.star-blue{
-    color: #0065fc;
-}
-
 .img-hebergement-1{
     background: url(assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) center/cover;
     border-radius: 25px 25px 0px 0px;
 }
 
+.img-hebergement-2{
+    background: url(assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg) center/cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.img-hebergement-3{
+    background: url(assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg) center/cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.img-hebergement-4{
+    background: url(assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg) center/cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.img-hebergement-5{
+    background: url(assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg) center/cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.img-hebergement-6{
+    background: url(assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center/cover;
+    border-radius: 25px 25px 0px 0px;
+}
 
 
 .box-hebergement a{
