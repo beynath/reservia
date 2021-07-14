@@ -333,8 +333,47 @@ input::placeholder{
     border-radius: 25px;
     height: 130px;
     box-shadow: 0px 0px 10px 1px #cfcfcf;
+    display: grid;
+    grid-template-columns: 120px 1fr;
 }
 
+.box-description-populaire{
+    background: white;
+    border-radius: 0px 25px 25px 0px;
+    padding : 10px
+}
+
+.box-description-populaire h2{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.box-description-populaire p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.box-populaire a{
+    color: black;
+    font-weight: 700;
+}
+
+.img-populaire-1{
+    background: url(ASSETS/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg) center/cover;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.img-populaire-2{
+    background: url(ASSETS/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg) center/cover;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.img-populaire-3{
+    background: url(ASSETS/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg) center/cover;
+    border-radius: 25px 0px 0px 25px;
+}
 
 /******* SECTION 3*********/
 
@@ -442,6 +481,10 @@ footer{
     color: black;
     display: block;
     font-size: 1rem;
+}
+
+.footer-bloc a:hover{
+    text-decoration: underline;
 }
 
 .footer-bloc h2{
