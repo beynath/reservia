@@ -120,9 +120,12 @@ input::placeholder{
     cursor: pointer;
     border-radius: 0px 15px 15px 0px;
     border: none;
+    transition: 0.3s;
 }
 
-
+.button-recherche input:hover{
+    background-color: #0054d1;
+}
 
 .grid-recherche{
     margin: 15px 0px 30px 0px;
@@ -149,6 +152,11 @@ input::placeholder{
 .filtre{
     display: flex;
     position: relative;
+    transition: 0.3s;
+}
+
+.filtre:hover{
+    transform: scale(1.05);
 }
 
 .filtre-icone{
@@ -253,6 +261,11 @@ input::placeholder{
     box-shadow: 0px 0px 10px 1px #cfcfcf;
     display: grid;
     grid-template-rows: 1fr 70px;
+    transition: 0.3s;
+}
+
+.hebergement:hover{
+    transform: scale(1.05);
 }
 
 .box-description{
@@ -335,6 +348,11 @@ input::placeholder{
     box-shadow: 0px 0px 10px 1px #cfcfcf;
     display: grid;
     grid-template-columns: 120px 1fr;
+    transition: 0.3s;
+}
+
+.populaire:hover{
+    transform: scale(1.05);
 }
 
 .box-description-populaire{
@@ -429,6 +447,11 @@ input::placeholder{
     display: grid;
     grid-template-rows: 1fr 50px;
     box-shadow: 0px 0px 10px 1px #bbbbbb;
+    transition: 0.3s;
+}
+
+.activite:hover{
+    transform: scale(1.05);
 }
 
 
