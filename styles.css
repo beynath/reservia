@@ -546,6 +546,7 @@ footer{
     display: flex;
     flex-direction: column-reverse;
     gap: 30px;
+    margin: 35px 0px 60px 0px;
 }
 
 .grid-hebergement{
@@ -567,7 +568,24 @@ footer{
     flex-direction: column;
 }
 
+.activite{
+    height: 200px;
+}
 
+.box-activite{
+    height: 100%;
+}
 
+.grid-footer{
+    display: flex;
+    flex-direction: column;
+}
 
+footer{
+    height: 100%;
+}
+
+.footer-bloc{
+    margin-bottom: 30px;
+}
 }
