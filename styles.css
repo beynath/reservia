@@ -9,6 +9,9 @@ a{
 }
 
 /*************************  HEADER ********************/
+.header-mobile{
+    display: none;
+}
 
 header{ 
     display: flex;
@@ -52,7 +55,7 @@ header a{
 }
 
 
-header #button-blue-bold{
+.button-blue-bold{
     color: #0065FC;
     font-weight: 700;
 }
@@ -608,6 +611,50 @@ footer{
 }
 
 @media screen and (max-width: 800px) {
+
+.header-mobile{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.header{
+    display: none
+ }
+
+
+.header-mobile-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-mobile-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.header-mobile .button-nav, .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.header-mobile .button-nav:hover{
+    border-bottom: 3px solid #0065fc;
+}
+
+.header-mobile-bottom:hover{
+    border-bottom: none;
+}
+
+.header-mobile img{
+    height: 45px;
+}
+
+.color-black{
+    color: black;
+}
 
 .button-recherche{
     display: none;
