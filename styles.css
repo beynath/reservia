@@ -347,7 +347,7 @@ input::placeholder{
 }
 
 .img-hebergement-6{
-    background: url(assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center/cover;
+    background: url(ASSETS/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg) center/cover;
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -507,7 +507,7 @@ input::placeholder{
 }
 
 .img-activite-1{
-    background: url(assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) center/cover;
+    background: url(ASSETS/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg) center/cover;
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -517,22 +517,22 @@ input::placeholder{
 }
 
 .img-activite-3{
-    background: url(assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) center/cover;
+    background: url(ASSETS/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg) center/cover;
     border-radius: 25px 25px 0px 0px;
 }
 
 .img-activite-4{
-    background: url(assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) center/cover;
+    background: url(ASSETS/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg) center/cover;
     border-radius: 25px 25px 0px 0px;
 }
 
 .img-activite-5{
-    background: url(assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg) center/cover;
+    background: url(ASSETS/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg) center/cover;
     border-radius: 25px 25px 0px 0px;
 }
 
 .img-activite-6{
-    background: url(assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) center/cover;
+    background: url(ASSETS/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg) center/cover;
     border-radius: 25px 25px 0px 0px;
 }
 /******** FOOTER *******/
