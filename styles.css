@@ -572,6 +572,10 @@ footer{
 /********** RESPONSIVE **********/
 
 @media screen and (max-width: 1000px) {
+.section1{
+    margin: 0px 20px;
+}
+
 .grid-section2{
     display: flex;
     flex-direction: column-reverse;
@@ -583,25 +587,31 @@ footer{
     display: inline-block;
 }
 
-.filtre{
-    margin: 10px 10px;
+
+.filtre-texte p{
+    margin-left: 35px;
     font-size: 1rem;
 }
 
+
 .economique{
-    width: 185px;
+    width: 175px;
+    margin: 10px 15px 15px 0px;
 }
 
 .familial{
-    width: 140px;
+    width: 135px;
+    margin: 10px 0px 15px 0px;
 }
 
 .romantique{
-    width: 175px;
+    width: 170px;
+    margin: 0px 0px 15px 0px;
 }
 
 .animaux{
-    width: 230px;
+    width: 220px;
+    margin: 0px 0px 15px 0px;
 }
 
 .info{
@@ -623,8 +633,9 @@ footer{
 
 
 .header-mobile-top{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
 }
 
 .header-mobile-bottom{
@@ -640,7 +651,7 @@ footer{
     height: 60px;
 }
 
-.header-mobile .button-nav:hover{
+.header-mobile-bottom .button-nav:hover{
     border-bottom: 3px solid #0065fc;
 }
 
@@ -673,6 +684,15 @@ footer{
 
 .button-recherche-icone:hover{
     background: #0054d1;
+}
+
+.grid-recherche{
+    display: grid;
+    grid-template-columns: 50px 220px 50px;
+}
+
+.text-zone{
+    width: 230px;
 }
 
 .grid-section2{
