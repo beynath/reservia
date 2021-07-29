@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+
 }
 
 a{
@@ -572,27 +573,22 @@ footer{
 /********** RESPONSIVE **********/
 
 @media screen and (max-width: 1000px) {
+
+
+/* SECTION 1 : les filtres */
+
 .section1{
     margin: 0px 20px;
-}
-
-.grid-section2{
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 30px;
-    margin: 35px 0px 60px 0px;
 }
 
 .grid-filtres{
     display: inline-block;
 }
 
-
 .filtre-texte p{
     margin-left: 35px;
     font-size: 1rem;
 }
-
 
 .economique{
     width: 175px;
@@ -618,9 +614,20 @@ footer{
     margin-top: 40px;
 }
 
+/* Disposition des blocs de la section 2 : "hébergements" et "populaires" */
+
+.grid-section2{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    margin: 35px 0px 60px 0px;
+}
+
 }
 
 @media screen and (max-width: 800px) {
+
+/* disposition du header : le logo et les 3 boutons du nav */
 
 .header-mobile{
     display: block;
@@ -651,6 +658,10 @@ footer{
     height: 60px;
 }
 
+.header-mobile-bottom .button-nav{
+    transition: 0.1s;
+}
+
 .header-mobile-bottom .button-nav:hover{
     border-bottom: 3px solid #0065fc;
 }
@@ -667,6 +678,8 @@ footer{
     color: black;
 }
 
+/* Disposition du champ de recherche*/
+
 .button-recherche{
     display: none;
 }
@@ -680,6 +693,7 @@ footer{
     justify-content: center;
     align-items: center;
     color: white;
+    transition: 0.3s;
 }
 
 .button-recherche-icone:hover{
@@ -694,6 +708,8 @@ footer{
 .text-zone{
     width: 230px;
 }
+
+/* Disposition des blocs hébergements, populaires et activités*/
 
 .grid-section2{
     display: flex;
@@ -729,6 +745,8 @@ footer{
     height: 100%;
 }
 
+/* Disposition du footer*/
+
 .grid-footer{
     display: flex;
     flex-direction: column;
@@ -741,4 +759,12 @@ footer{
 .footer-bloc{
     margin-bottom: 30px;
 }
+
+/* Correction du width de la section 1 : filtres*/
+
+.grid-filtres, .filter-eco-family{
+    width: 335px;
+}
+
+
 }
